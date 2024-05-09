@@ -56,15 +56,20 @@ class _logFristScreenState extends State<logFristScreen> {
                   ),
                 ),
                 SizedBox(width:10,),
-                Container(
-                  height: 60,
-                  width: 150,
-                  decoration: BoxDecoration(
-                    color: Colors.black,
-                      borderRadius: BorderRadius.circular(15),
-                      border: Border.all(color: Colors.black,width: 2)
+                InkWell(
+                  onTap: () {
+                    Navigator.of(context).pushNamed('/sing');
+                  },
+                  child: Container(
+                    height: 60,
+                    width: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.black,
+                        borderRadius: BorderRadius.circular(15),
+                        border: Border.all(color: Colors.black,width: 2)
+                    ),
+                    child: Center(child: Text('SIGNUP',style: TextStyle(color: Colors.white),)),
                   ),
-                  child: Center(child: Text('SIGNUP',style: TextStyle(color: Colors.white),)),
                 ),
                 SizedBox(width:37,),
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:resume_ui_daliy_task/Login/frist.dart';
 import 'package:resume_ui_daliy_task/Login/second.dart';
+import 'package:resume_ui_daliy_task/Login/thrid.dart';
 void main()
 {
   runApp(MyApp());
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/':(context)=>logFristScreen(),
         '/log':(context)=>logSecondScreen(),
+        '/sing':(context)=>singupScreen(),
       },
     );
   }
