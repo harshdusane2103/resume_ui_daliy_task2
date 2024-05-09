@@ -47,7 +47,7 @@
 
 <p align ="center">
   <h4 align="left">Q 2. What is List and Map ? (Defination,example,generics, predefine methods withn examples.)</h4>
-  ###
+
 
 ```
 
@@ -208,6 +208,7 @@ class _homeScreenState extends State<homeScreen> {
 </P>
 
 <h1 align="center">#️⃣Login Page UI#️⃣</h1>
+<h3 align="left">⚡Gmail Page⚡</h3>
 <p>
   <img src="" width=22%,height=35%>
    <img src="https://github.com/harshdusane2103/resume_ui_daliy_task/blob/master/gmail.png" width=22%,height=35%>
@@ -215,6 +216,20 @@ class _homeScreenState extends State<homeScreen> {
   
   <video src="https://github.com/harshdusane2103/resume_ui_daliy_task/assets/161817658/52763908-1bfd-4c8e-85d4-29a7e475e7b8">
 </p>
+    <h3 align="left">⚡Login -SingUp Page ⚡</h3>
+<p>
+  <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/p1.png" width=22%,height=35%>
+  <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/p2.png" width=22%,height=35%>
+  <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/p3.png" width=22%,height=35%>
+ 
+  
+  <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/b23dc075-6303-455e-ae3b-9ef2fda0e5e6">
+</p>
+
+
+
+
+
 
 
 
