@@ -1,7 +1,7 @@
 # resume_ui_daliy_task
 
-<h1 align="center"> #️⃣6.1 List of Map#️⃣#️</h1>
-###
+<h1 align="center"> #️⃣6.1 List of Map#️⃣</h1>
+
 <P align="center">
 <h4 align="left">
   Q 1 . WAP to get user info from user and set it into map and print all info by the Map(minimum 10 fields required).</h4>
@@ -210,10 +210,7 @@ class _homeScreenState extends State<homeScreen> {
 <h1 align="center">#️⃣Login Page UI#️⃣</h1>
 <h3 align="left">⚡Gmail Page⚡</h3>
 <p>
-  <img src="" width=22%,height=35%>
-   <img src="https://github.com/harshdusane2103/resume_ui_daliy_task/blob/master/gmail.png" width=22%,height=35%>
-    <img src="https://github.com/harshdusane2103/resume_ui_daliy_task/blob/master/gmail.png" width=22%,height=35%>
-  
+  <img src="https://github.com/harshdusane2103/resume_ui_daliy_task/blob/master/gmail.png" width=22%,height=35%>
   <video src="https://github.com/harshdusane2103/resume_ui_daliy_task/assets/161817658/52763908-1bfd-4c8e-85d4-29a7e475e7b8">
 </p>
     <h3 align="left">⚡Login -SingUp Page ⚡</h3>
