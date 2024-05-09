@@ -220,8 +220,12 @@ class _homeScreenState extends State<homeScreen> {
   <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/p3.png" width=22%,height=35%>
  
   
-  <video src="https://github.com/harshdusane2103/resume_ui_daliy_task/assets/161817658/52763908-1bfd-4c8e-85d4-29a7e475e7b8">
+  <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/da8fc507-446c-41c5-9ea8-79ca97a1000d">
 </p>
+
+
+
+
 
 
 
