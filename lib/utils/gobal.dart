@@ -67,4 +67,6 @@ List iconlist=[
   },
 ];
 
+String email='nothing entered !';
+
 
