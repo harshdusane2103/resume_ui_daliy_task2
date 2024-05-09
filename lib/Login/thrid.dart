@@ -50,6 +50,8 @@ class _singupScreenState extends State<singupScreen> {
                 ),
                 SizedBox(height: 5,),
                 TextField(
+
+                  keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
 
                     enabledBorder: OutlineInputBorder(
@@ -67,6 +69,7 @@ class _singupScreenState extends State<singupScreen> {
                 SizedBox(height: 10,),
                 TextField(
                   keyboardType: TextInputType.number,
+                  obscureText: true,
                   decoration: InputDecoration(
 
                       enabledBorder: OutlineInputBorder(

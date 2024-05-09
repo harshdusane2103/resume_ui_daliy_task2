@@ -32,6 +32,7 @@ class _logSecondScreenState extends State<logSecondScreen> {
                  Text('Make it work , Make it right,Make it fast',style: TextStyle(color: Colors.black,fontSize: 14,fontWeight: FontWeight.bold),),
                  SizedBox(height: 5,),
                  TextField(
+                   keyboardType: TextInputType.emailAddress,
                    decoration: InputDecoration(
              
                      enabledBorder: OutlineInputBorder(
@@ -48,6 +49,7 @@ class _logSecondScreenState extends State<logSecondScreen> {
                  ),
                  SizedBox(height: 10,),
                  TextField(
+                   obscureText: true,
                    keyboardType: TextInputType.number,
                    decoration: InputDecoration(
              
