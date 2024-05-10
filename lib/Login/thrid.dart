@@ -70,6 +70,7 @@ class _singupScreenState extends State<singupScreen> {
                 TextField(
                   keyboardType: TextInputType.number,
                   obscureText: true,
+
                   decoration: InputDecoration(
 
                       enabledBorder: OutlineInputBorder(

@@ -27,21 +27,27 @@ class _sucessScreenState extends State<sucessScreen> {
               child: Column(
 
                 children: [
-                  SizedBox(height:20,),
+                  Container(
+                    height: 80,
+                    width: 80,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image:  AssetImage(
+                          'asstes/images/g.png',
+
+                        ),
+                      ),
+
+                    ),
+                  ),
+                  SizedBox(height:18,),
                   Text('Gmail Account  Create ',style: TextStyle(color: Colors.black,fontSize:32,fontWeight: FontWeight.bold),),
                   SizedBox(height:5,),
                   Text('Sucessflly',style: TextStyle(color: Colors.black,fontSize:28,fontWeight: FontWeight.bold),),
                   Container(
-                    height:200,
-                    width: 200,
-                    // decoration: BoxDecoration(
-                    // // color: Colors.green,
-                    //   image: DecorationImage(
-                    //     fit: BoxFit.cover,
-                    //     image: AssetImage('asstes/images/rigth.png'),
-                    //   )
-
-                      child:Image.asset('asstes/images/rr.png') ,
+                    height:180,
+                    width: 180,
+                    child:Image.asset('asstes/images/rr.png') ,
                     ),
 
 
