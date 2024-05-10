@@ -82,7 +82,37 @@ class _homeFristScreenState extends State<homeFristScreen> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              textemail(),
+                              TextFormField(
+                                validator: (value) {
+                                  if(value! .isEmpty)
+                                    {
+                                      return'filed The Email';
+                                    }
+                                  if(!value.contains('@gmail.com'))
+                                  {
+                                    return'filed The @gmail.com';
+                                  }
+                                  if(value.toString()=='@gmail.com')
+                                  {
+                                    return'filed The @gmail.com';
+                                  }
+                                },
+
+                                keyboardType: TextInputType.emailAddress,
+                                decoration: InputDecoration(
+                                  enabledBorder: OutlineInputBorder(
+                                    borderSide: BorderSide(
+                                        width: 1, color: Colors.black),
+                                  ),
+                                  focusedBorder: OutlineInputBorder(
+                                    borderSide: BorderSide(
+                                        width: 2, color: Colors.purple),
+                                  ),
+
+                                  hintText: 'Email or Phone ',
+
+                                ),
+                              ),
                               SizedBox(
                                 height: 4,
                               ),
@@ -135,20 +165,27 @@ class _homeFristScreenState extends State<homeFristScreen> {
                                   ),
                                   InkWell(
                                     onTap: () {
-                                      email=txtEmail.text;
-                                      Navigator.of(context).pushNamed('/pass');
+
+                                      bool res = formkey.currentState!.validate();
+                                      if(res)
+                                      {
+                                        email = txtEmail.text;
+                                        Navigator.of(context).pushNamed('/pass');
+                                      }
                                     },
                                     child: Container(
                                       height: 40,
                                       width: 80,
                                       decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(20),
+                                          borderRadius: BorderRadius.circular(
+                                              20),
                                           color: primarycolor),
                                       child: Center(
                                           child: Text(
-                                        'Next',
-                                        style: TextStyle(color: Colors.white),
-                                      )),
+                                            'Next',
+                                            style: TextStyle(
+                                                color: Colors.white),
+                                          )),
                                     ),
                                   )
                                 ],
@@ -167,31 +204,5 @@ class _homeFristScreenState extends State<homeFristScreen> {
       ),
     );
   }
-
-  TextFormField textemail() {
-    return TextFormField(
-                              validator: (value)
-                              {
-                                // if(value! isEmpty)
-                                //   {
-                                //     return'filed must';
-                                //   }
-                              },
-
-                              keyboardType: TextInputType.emailAddress,
-                              decoration: InputDecoration(
-                                  enabledBorder: OutlineInputBorder(
-                                    borderSide: BorderSide(
-                                        width: 1, color: Colors.black),
-                                  ),
-                                  focusedBorder: OutlineInputBorder(
-                                    borderSide: BorderSide(
-                                        width: 2, color: Colors.purple),
-                                  ),
-
-                                  hintText: 'Email or Phone ',
-
-                                     ),
-                            );
-  }
 }
+
