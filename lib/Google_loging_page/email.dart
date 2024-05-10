@@ -83,6 +83,11 @@ class _homeFristScreenState extends State<homeFristScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               TextFormField(
+                                onChanged: (value){
+                                  setState(() {
+                                    email=value;
+                                  });
+                                },
                                 validator: (value) {
                                   if(value! .isEmpty)
                                     {
@@ -97,7 +102,6 @@ class _homeFristScreenState extends State<homeFristScreen> {
                                     return'filed The @gmail.com';
                                   }
                                 },
-
                                 keyboardType: TextInputType.emailAddress,
                                 decoration: InputDecoration(
                                   enabledBorder: OutlineInputBorder(

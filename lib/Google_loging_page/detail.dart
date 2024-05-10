@@ -20,11 +20,8 @@ class _detailScreenState extends State<detailScreen> {
               color: Colors.green,
               child: Column(
                 children: [
-
-
-
                       Text(
-                    email.toString(),
+                    email,
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 32,
@@ -32,7 +29,7 @@ class _detailScreenState extends State<detailScreen> {
 
                   ),
                       Text(
-                        email.toString(),
+                        password,
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 32,

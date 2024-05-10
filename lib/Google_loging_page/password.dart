@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:resume_ui_daliy_task/Google_loging_page/email.dart';
 import 'package:resume_ui_daliy_task/utils/gobal.dart';
 
 import '../utils/color.dart';
@@ -71,6 +72,14 @@ class _passwordScreenState extends State<passwordScreen> {
                                     fontWeight: FontWeight.w700,
                                     fontSize: 28),
                               ),
+                              Text(
+                                email,
+                                style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 32,
+                                    fontWeight: FontWeight.bold),
+
+                              ),
                             ],
                           ),
                         ),
@@ -82,6 +91,11 @@ class _passwordScreenState extends State<passwordScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               TextFormField(
+                                onChanged: (value){
+                                  setState(() {
+                                    password=value;
+                                  });
+                                },
                                 validator: (value)
                                 {
                                   if(value!.isEmpty)
@@ -149,12 +163,18 @@ class _passwordScreenState extends State<passwordScreen> {
                                   SizedBox(
                                     width: 200,
                                   ),
-                                  Text(
-                                    'Create account',
-                                    style: TextStyle(
-                                        color: Colors.blue,
-                                        fontSize: 14,
-                                        fontWeight: FontWeight.bold),
+                                  InkWell(
+                                    onTap: () {
+
+                                      Navigator.of(context).pushNamed('/det');
+                                    },
+                                    child: Text(
+                                      'Show details ',
+                                      style: TextStyle(
+                                          color: Colors.blue,
+                                          fontSize: 14,
+                                          fontWeight: FontWeight.bold),
+                                    ),
                                   ),
                                   SizedBox(
                                     width: 35,
@@ -164,6 +184,8 @@ class _passwordScreenState extends State<passwordScreen> {
                                       bool res = formkey.currentState!.validate();
                                       if(res)
                                         {
+
+                                          password=txtpassword.text;
                                           Navigator.of(context).pushNamed('/sucess');
                                         }
                                     },
@@ -197,4 +219,3 @@ class _passwordScreenState extends State<passwordScreen> {
     );
   }
 }
-int check=0;
