@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:resume_ui_daliy_task/Google_loging_page/detail.dart';
 import 'package:resume_ui_daliy_task/Google_loging_page/email.dart';
+import 'package:resume_ui_daliy_task/Google_loging_page/password.dart';
+import 'package:resume_ui_daliy_task/Google_loging_page/sucess.dart';
 void main()
 {
   runApp(MyApp());
@@ -15,6 +17,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/':(context)=>homeFristScreen(),
         '/det':(context)=>detailScreen(),
+        '/pass':(context)=>passwordScreen(),
+        '/sucess':(context)=>sucessScreen(),
       },
     );
   }
