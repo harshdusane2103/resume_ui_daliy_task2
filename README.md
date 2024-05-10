@@ -223,13 +223,15 @@ class _homeScreenState extends State<homeScreen> {
   <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/da8fc507-446c-41c5-9ea8-79ca97a1000d">
 </p>
 
-
-
-
-
-
-
-
+<h1 align="center">#️⃣6.4 Google Login Page With Validation#️⃣
+        <p>
+  <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/email.png" width=60%,height=60%><br>
+  <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/password.png" width=60%,height=60%><br>
+  <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/sucess.png" width=60%,height=60%><br>
+ 
+  
+  <video src="">
+</p>
 
 
 

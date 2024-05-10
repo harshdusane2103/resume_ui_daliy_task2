@@ -17,7 +17,7 @@ class _detailScreenState extends State<detailScreen> {
             height: 200,
             width: 300,
             color: Colors.green,
-              child: Center(child: Text(email.toString(),style: TextStyle(color: Colors.black,fontSize: 32),))),
+              child: Center(child: Text(email.toString(),style: TextStyle(color: Colors.black,fontSize: 32,fontWeight: FontWeight.bold),))),
         ],
       ),
     );
