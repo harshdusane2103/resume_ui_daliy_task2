@@ -233,6 +233,13 @@ class _homeScreenState extends State<homeScreen> {
   <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/7b83e523-4459-45e8-a8b1-a6138a7226b7"><br><br>
 </p>
 <h1 align="center">#️⃣ SnackBar & TextFormField #️⃣</h1><br><br>
+<P> <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/snack.png" width=22%,height=35%>
+  <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/705f1347-4df5-49ee-a348-cdf3bc7a5310">
+</P>
+
+
+
+
 
 
 
