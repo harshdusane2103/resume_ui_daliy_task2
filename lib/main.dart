@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:resume_ui_daliy_task/Image_picker/image_pick.dart';
 import 'package:resume_ui_daliy_task/Snack/snack.dart';
 import 'package:resume_ui_daliy_task/utils/gobal.dart';
 
@@ -13,9 +14,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-    home:snackScreen(),
+
+    home:ImageScreen(),
     );
+
   }
+
 }
 
 

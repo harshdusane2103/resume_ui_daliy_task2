@@ -15,6 +15,7 @@ class _snackScreenState extends State<snackScreen> {
 
       appBar: AppBar(
         backgroundColor: Colors.teal,
+        centerTitle: true,
         title: Center(
             child: Text(
           'Snack Widget',
