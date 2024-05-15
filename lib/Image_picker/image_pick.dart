@@ -72,7 +72,8 @@ class _ImageScreenState extends State<ImageScreen> {
 
               }, icon: Icon(Icons.photo_rounded,size: 65,),color: Colors.black,),
             ],
-          ),SizedBox(height: 50),
+          ),
+          SizedBox(height: 50),
           Container(
             height: 50,
             width: 350,
@@ -82,7 +83,7 @@ class _ImageScreenState extends State<ImageScreen> {
             ),
             child: Center(child: Text('Upload Me',style: TextStyle(color: Colors.white,fontSize: 24),)),
           )
-
+  
         ],
       ),
 

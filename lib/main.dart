@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:resume_ui_daliy_task/Id_card_reg/id_card.dart';
 import 'package:resume_ui_daliy_task/Image_picker/image_pick.dart';
+import 'package:resume_ui_daliy_task/Multipal_textfiled/Multi_txt.dart';
 import 'package:resume_ui_daliy_task/Snack/snack.dart';
+import 'package:resume_ui_daliy_task/radio_check.dart';
 import 'package:resume_ui_daliy_task/utils/gobal.dart';
 
 void main() {
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-    home:ImageScreen(),
+    home:MuiltScreen(),
     );
 
   }
