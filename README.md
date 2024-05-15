@@ -236,6 +236,14 @@ class _homeScreenState extends State<homeScreen> {
 <P> <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/snack.png" width=22%,height=35%>
   <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/705f1347-4df5-49ee-a348-cdf3bc7a5310">
 </P>
+<h1 align="center">#️⃣ Image Picker in Flutter #️⃣</h1><br><br>
+<P> <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/camera.png" width=22%,height=35%>
+  <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/image2.png" width=22%,height=35%>
+  <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/766ffa89-fd72-486e-b5bd-3d151bea807f">
+</P>
+
+
+
 
 
 
