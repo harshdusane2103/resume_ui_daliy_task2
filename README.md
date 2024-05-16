@@ -245,7 +245,7 @@ class _homeScreenState extends State<homeScreen> {
   <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/image2.png" width=22%,height=35%>
   <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/da28f9a4-cf6e-4785-ba80-7104a082c9ee">
 </P>
-
+<h1 align="center">#️⃣ ID Card's Registration Form#️⃣</h1><br><br>
 
 
 
