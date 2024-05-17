@@ -25,6 +25,10 @@
               'phone':Null,
             };
               for(String key in resume.keys)
+
+
+
+
               {
                 stdout.write("enter the keys ${key} : ");
                 resume[key]=stdin.readLineSync();
@@ -236,6 +240,14 @@ class _homeScreenState extends State<homeScreen> {
 <P> <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/snack.png" width=22%,height=35%>
   <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/705f1347-4df5-49ee-a348-cdf3bc7a5310">
 </P>
+<h1 align="center">#️⃣ Image Picker in Flutter #️⃣</h1><br><br>
+<P> <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/camera.png" width=22%,height=35%>
+  <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/image2.png" width=22%,height=35%>
+  <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/da28f9a4-cf6e-4785-ba80-7104a082c9ee">
+</P>
+<h1 align="center">#️⃣ ID Card's Registration Form#️⃣</h1><br><br>
+
+
 
 
 
