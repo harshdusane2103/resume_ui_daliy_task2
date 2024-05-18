@@ -246,7 +246,9 @@ class _homeScreenState extends State<homeScreen> {
   <video src="https://github.com/harshdusane2103/resume_ui_daliy_task2/assets/161817658/da28f9a4-cf6e-4785-ba80-7104a082c9ee">
 </P>
 <h1 align="center">#️⃣ ID Card's Registration Form#️⃣</h1><br><br>
-<p><img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/id.png" width=22%,height=35%></p>
+<p><img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/id.png" width=22%,height=35%>
+  <img src="https://github.com/harshdusane2103/resume_ui_daliy_task2/blob/master/id2.png" width=22%,height=35%>
+</p>
 
 <h1 align="center">#️⃣Generate Dynamic Text Field#️⃣</h1><br><br>
 
