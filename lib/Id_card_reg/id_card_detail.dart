@@ -153,9 +153,11 @@ class _DetailScreenState extends State<DetailScreen> {
                             fontSize: 20,
                             fontWeight: FontWeight.bold),
                       ),
+
                       SizedBox(
                         width: 20,
                       ),
+
                       ...List.generate(
                           skillList.length,
                               (index) => Text(

@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:image_picker/image_picker.dart';
+
 GlobalKey<FormState>formkey=GlobalKey();
 ImagePicker imagePicker=ImagePicker();
 File? fileImage;

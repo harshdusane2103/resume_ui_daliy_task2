@@ -6,6 +6,8 @@ import 'package:resume_ui_daliy_task/Id_card_reg/id_card_detail.dart';
 import 'package:resume_ui_daliy_task/Image_picker/image_pick.dart';
 import 'package:resume_ui_daliy_task/Multipal_textfiled/Multi_txt.dart';
 import 'package:resume_ui_daliy_task/Snack/snack.dart';
+import 'package:resume_ui_daliy_task/pdf_ui/invocie.dart';
+import 'package:resume_ui_daliy_task/pdf_ui/pdf_screen.dart';
 import 'package:resume_ui_daliy_task/radio_check.dart';
 import 'package:resume_ui_daliy_task/utils/gobal.dart';
 
@@ -22,8 +24,8 @@ class MyApp extends StatelessWidget {
 
    routes:
    {
-        '/':(context)=>IdScreen(),
-     '/det':(context)=>DetailScreen(),
+        '/':(context)=>invoiceScreen(),
+     '/pdf':(context)=>pdfScreen(),
    },
     );
 
