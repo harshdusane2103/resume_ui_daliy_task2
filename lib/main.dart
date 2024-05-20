@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:resume_ui_daliy_task/Dawer/dawer.dart';
 import 'package:resume_ui_daliy_task/Google_loging_page/detail.dart';
 import 'package:resume_ui_daliy_task/Id_card_reg/id_card.dart';
 import 'package:resume_ui_daliy_task/Id_card_reg/id_card_detail.dart';
 import 'package:resume_ui_daliy_task/Image_picker/image_pick.dart';
 import 'package:resume_ui_daliy_task/Multipal_textfiled/Multi_txt.dart';
 import 'package:resume_ui_daliy_task/Snack/snack.dart';
+import 'package:resume_ui_daliy_task/invoice_bill/Bill.dart';
+import 'package:resume_ui_daliy_task/invoice_bill/homescreen.dart';
 import 'package:resume_ui_daliy_task/pdf_ui/invocie.dart';
 import 'package:resume_ui_daliy_task/pdf_ui/pdf_screen.dart';
 import 'package:resume_ui_daliy_task/radio_check.dart';
@@ -24,8 +27,8 @@ class MyApp extends StatelessWidget {
 
    routes:
    {
-        '/':(context)=>invoiceScreen(),
-     '/pdf':(context)=>pdfScreen(),
+     '/':(context)=>Homebillscreen(),
+     '/bill':(context)=>Billscreen(),
    },
     );
 
@@ -34,7 +37,7 @@ class MyApp extends StatelessWidget {
 }
 
 
-
+//
 // class MyApp extends StatelessWidget {
 //   const MyApp({super.key});
 //

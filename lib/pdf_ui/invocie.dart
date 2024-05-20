@@ -28,15 +28,17 @@ class _invoiceScreenState extends State<invoiceScreen> {
           },child: Icon(Icons.file_download_outlined,color: Colors.white,)),
         ],
       ),
-      body: Column(
-        children: [
-          ... List.generate(invoicelist.length, (index) => ListTile(
-            title: Text(invoicelist[index].name!,style: TextStyle(fontSize: 28),),
-            subtitle: Text(invoicelist[index].price!,style: TextStyle(fontSize:26),),
-            trailing: Text(invoicelist[index].category! ,style: TextStyle(fontSize:20),),
-          )),
-
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            ... List.generate(invoicelist.length, (index) => ListTile(
+              title: Text(invoicelist[index].name!,style: TextStyle(fontSize: 28),),
+              subtitle: Text(invoicelist[index].price!,style: TextStyle(fontSize:26),),
+              trailing: Text(invoicelist[index].category! ,style: TextStyle(fontSize:20),),
+            )),
+        
+          ],
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
@@ -59,6 +61,8 @@ List invoicelist=[
 ];
 class InvoiceModel
 {
+
+
   String? name;
   String? price;
   String? category;
@@ -72,7 +76,7 @@ Future <Uint8List> genratePdf(){
       pw.Page(
     pageFormat:PdfPageFormat.a4,
         build: (Context)=>pw.Column(
-          children: List.generate(invoicelist.length, (index) => pw.Text('${invoicelist[index].name!},  ${invoicelist[index].price!}   ${invoicelist[index].category!}\n\n\n'),)
+          children: List.generate(invoicelist.length, (index) => pw.Text('${invoicelist[index].name!},  ${invoicelist[index].price!}   ${invoicelist[index].category!}\n\n\n',style: pw.TextStyle(fontSize: 24)),)
         )
 
   ));return pdf.save();
